@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom Style*/
+body{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    background-color: #D4CEA7;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.align-stretch{
+    align-items: stretch;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+.justify-content{
+    justify-content: start;
+}
+ul{
+    list-style: disc;
+}
+ol{
+    list-style: decimal;
+}
+ol,ul{
+    padding-left: 30px;
+
+}
+.padding{
+    padding: 30px 0;
+}
+
+/*Navbar*/
+.navigation{
+    background-color:#F96115 ;
+    padding: 20px 0;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform:capitalize ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav ul{
+list-style: none;
+padding-left: 0;
+
+}
+/*Section*/
+.box{
+    background-color: #005979;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px 30px 40px 20px;
+    width: 25%;
+ 
+}
+
+.box li{
+    line-height: 2;
+}
+.list-style{
+    list-style: square;
+}
+.check{
+    line-height: 3;
+    
+}
+.check li{
+list-style-type: none;
+padding: 7px 0;
+}
+.check i{
+    padding-right: 10px;
+    color: black;
+    font-size: 25px;
+    vertical-align: middle;
+}
+/*Description Section*/
+dt{
+    font-size: 30px;
+    text-transform:capitalize;
+    margin: 10px 0;
+    color: #252C22;
+}
+dd{
+    font-size: 20px;
+    margin-left: 20px;
+   margin: 20px 0 30px 0;
+    color: #68644F;
+    
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    padding: 40px 0;
+    margin-bottom: 10px;
+}
